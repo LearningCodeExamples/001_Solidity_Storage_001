@@ -59,13 +59,11 @@ Welcome to Hardhat v2.12.2
 
 ```
 
+9. Start a local test network ``` yarn hardhat node ```
 
-// start a local test network
-9. yarn hardhat node
-
-// Add this code to print a list off all accounts
-// as a hardhat command [ hardhat accounts ]
 10. Create a simple Hardhat Task, Add this code to hardhat.config.js
+    Add this code to print a list off all accounts, you can then run the command ``` hardhat accounts ``` in the terminal to see the list of accounts.
+
 ``` javascript
 
 task("accounts", "Prints the list of accounts", async () => {
@@ -77,7 +75,7 @@ task("accounts", "Prints the list of accounts", async () => {
 });
 
 ```
-11. Run your task command in the terminal to see it in action.
+11.  Run your task command in the terminal to see it in action.
 
 ```
 hardhat accounts
