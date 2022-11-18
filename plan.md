@@ -21,6 +21,8 @@ setup instructions for creating this project:
 // Select Javascript Project and press Enter
 8. ▸ Create a JavaScript project
 
+```s
+
 888    888                      888 888               888
 888    888                      888 888               888
 888    888                      888 888               888
@@ -38,8 +40,11 @@ Welcome to Hardhat v2.12.2
   Create an empty hardhat.config.js
   Quit
 
+```
+
+
 // start a local test network
-9. yarn hardhat node
+1. yarn hardhat node
 
 // Add this code to print a list off all accounts
 // as a hardhat command [ hardhat accounts ]
