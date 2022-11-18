@@ -14,26 +14,29 @@ npx hardhat run scripts/deploy.js
 
 setup instructions for creating this project:
 
-// create your project folder
-1. mkdir hardhat-simple-storage-basic
 
-// enter your folder
-2. cd hardhat-simple-storage-basic
+1. Create your new project folder
+        ``` mkdir hardhat-simple-storage-basic ```
 
-// Initialize your Node Project
-3. yarn init
+2. Enter your project root folder
+        ``` cd hardhat-simple-storage-basic ```
 
-4. open your project folder in vscode
+3. Initialize your Node Project
+        ``` yarn init ```
+
+4. Open your project folder in vscode
+   
 5. Delete ``` "main": "index.js", ``` from package.json.
 
-// Install Hardhat Node Module
-6. yarn add --dev hardhat
 
-// Create a Hardhat Project
-7. yarn hardhat
+6. Install Hardhat Node Module
+        ``` yarn add --dev hardhat ```
 
-// Select Javascript Project and press Enter
-8. ▸ Create a JavaScript project
+7. Create a Hardhat Project.
+        ``` yarn hardhat ```
+
+
+8. SELECT ``` ▸ Create a JavaScript project ``` and press ENTER.
 
 ```s
 
@@ -58,7 +61,7 @@ Welcome to Hardhat v2.12.2
 
 
 // start a local test network
-1. yarn hardhat node
+9. yarn hardhat node
 
 // Add this code to print a list off all accounts
 // as a hardhat command [ hardhat accounts ]
@@ -86,7 +89,7 @@ hardhat accounts
 yarn hardhat
 ```
 
-```
+```shell
 yarn run v1.22.19
 $ /home/Documents/CODE/hardhat-simple-storage-basic/node_modules/.bin/hardhat
 Hardhat version 2.12.2
@@ -171,7 +174,6 @@ contract Storage {
     nameToFavoriteNumber[_name] = _favoriteNumber;
   }
 }
-
 
 ```
 
