@@ -180,7 +180,7 @@ contract Storage {
 18. change network to goerli
 19. setup alchemy account
 20. edit hardhat.config.js
-21. install .env modul
+21. install .env module
 22. add .env file
 23. update hardhat.config.js with RPC_URL from .env file
 24. add ``` require("dotenv").config(); ``` to > hardhat.config.js
