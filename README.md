@@ -1,7 +1,7 @@
 # Solidity_Storage_001
 Solidity storage contract example on the Goerli Eth test network, using Hardhat, Metamask and Alchemy RPC_URL.
 
-# Sample Hardhat Project
+# Hardhat Project
 
 This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
 
